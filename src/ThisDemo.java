@@ -1,0 +1,14 @@
+
+public class ThisDemo {
+int instVar;
+ThisDemo(int instVar){
+	this.instVar=instVar;
+	System.out.println("reference ="+this);
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ThisDemo obj=new ThisDemo(8);
+System.out.println("reference is"+obj);
+	}
+
+}
